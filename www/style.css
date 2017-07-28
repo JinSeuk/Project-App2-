@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#w {
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+
+/** @group core body **/
+
+#w #pagebody {
+    position: relative;
+    left: 0;
+    max-width: 640px;
+    min-width: 320px;
+    z-index: 99999;
+}
+
+#w #navmenu {
+    height: 100%;
+    display: block;
+    position: fixed;
+    width: 300px;
+    left: 0px;
+    top: 0px;
+    z-index: 0;
+}
+
+
+/** @group header **/
+
+#w #pagebody header#toolbarnav {
+    display: block;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index: 9999;
+    background: #ffffff; 
+    height: 44px;
+    width: 100%;
+    max-width: 640px;
+}
+
+#w #pagebody header#toolbarnav h1 {
+    text-align: center;
+    padding-top: 10px;
+    padding-right: 40px;
+    color: #000000; 
+    font-size: 2.1em; 
+}
+
+#w #pagebody header #menu-btn {
+    display: block;
+    float: left;
+    width: 30px;
+    height: 30px;
+    background: url('img/Ham.png') no-repeat;
+    margin-top: 6px;
+    margin-left: 8px;
+}
+
+#w #pagebody #content {
+    display: block;
+    background: #ffffff;
+    padding: 5px 12px;
+    margin-top: 40px;
+    min-height: 550px;
+    height: 100%;
+    z-index: 9999;
+}
+ 
+/** @group nav menu **/
+
+#w #navmenu {
+    color: antiquewhite;
+}
+
+#w #navmenu header {
+    display: block;
+    background: #000000;
+    height: 44px;
+}
+
+#w #navmenu header h1 {
+    text-align: center;
+    padding-top: 10px;
+    
+    border-bottom: 1px solid #ffffff;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 2.1em;
+    text-shadow: 1px 1px 0px #313131;
+}
+
+#w #navmenu ul {
+    list-style: none;
+    background: #000000;
+    height: 100%;
+}
+
+ 
+
+#w #navmenu ul li a {
+    position: relative;
+    display: block;
+    border-bottom: 1px solid #ffffff;
+    padding: 14px 11px;
+    font-weight: bold;
+    color: #ffffff; 
+    font-size: 1.6em;
+    text-decoration: none;
+}  
